@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- can be have state! See toolTipPosition -->
+    <attr name="anchorPointerDrawable" format="reference" />
+
+    <attr name="toolTipPosition" format="enum">
+        <!-- automatic will try belowAnchor, if there is no space, rightToAnchor, then aboveAnchor and lastly leftToAnchor -->
+        <enum name="automatic" value="0"/>
+        <enum name="belowAnchor" value="1"/>
+        <enum name="rightToAnchor" value="2"/>
+        <enum name="aboveAnchor" value="3"/>
+        <enum name="leftToAnchor" value="4"/>
+    </attr>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ToolTipAnimation">
+        <item name="android:windowEnterAnimation">@anim/tooltip_in</item>
+        <item name="android:windowExitAnimation">@anim/tooltip_out</item>
+    </style>
+
+    <style name="OverSight">
+        <item name="android:popupBackground">@null</item>
+        <item name="android:popupAnimationStyle">@style/ToolTipAnimation</item>
+    </style>
+
+    <style name="OverSight.ToolTip" parent="OverSight">
+
+    </style>
+
+    <declare-styleable name="OverSight">
+        <attr name="android:popupBackground" />
+        <attr name="android:popupAnimationStyle" />
+        <attr name="anchorPointerDrawable" />
+        <attr name="toolTipPosition" />
+    </declare-styleable>
+</resources>
